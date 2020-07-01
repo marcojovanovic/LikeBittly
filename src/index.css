@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a:focus,
+button:focus {
+  outline: 0;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: hsl(257, 7%, 63%);
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

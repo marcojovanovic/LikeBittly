@@ -1,0 +1,31 @@
+.get-started {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    border: 1px solid  #ee6123;
+    background: #e9500e;
+    padding: .8rem 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 0.5rem;
+   
+}
+
+.get-started:hover {
+    border: 1px solid #f17743;
+    background: #f87942;
+}
+
+
+
+@media(max-width:890px){
+
+    .get-started{
+        font-size: 1rem;
+    }
+
+
+
+}

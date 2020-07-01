@@ -1,0 +1,108 @@
+.intro {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description {
+    width: 50%;
+    margin-top: 2rem;
+    margin-right: 6rem;
+}
+
+.description h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 5rem;
+    color:#35323e;
+    letter-spacing: -.3rem;
+}
+
+.bitly-img{
+    width: 140%;
+}
+
+
+.description p {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+  
+}
+
+.illustration {
+    width: 40%;
+}
+
+@media(max-width:890px) {
+    .intro {
+        flex-direction: column-reverse;
+       
+    }
+    .description,
+    .illustration {
+        width: 100%;
+         margin: auto;
+        text-align: center;
+    }
+    .illustration {
+        overflow: hidden;
+       
+    }
+  .bitly-img{
+
+        width: 100%;
+
+  }
+    .description {
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .description h1 {
+        font-size: 2.6rem;
+        line-height: 3rem;
+        letter-spacing: -.15rem;
+    }
+    .description p {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+
+   
+}
+
+.margin-top{
+    margin-top: 3rem !important;
+}
+
+
+@media (max-width:1200px){
+
+    .description h1 {
+        font-size: 3.1rem;
+       
+    }
+
+
+}
+
+
+
+@media(max-width:450px){
+
+    .bitly-img{
+
+        width: 130%;
+        transform: translateX(-15%);
+
+  }
+
+  .description h1 {
+    font-size: 2.5rem;
+   
+}
+
+
+}

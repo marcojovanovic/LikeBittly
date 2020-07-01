@@ -1,0 +1,126 @@
+.footer {
+    background-color: #232127;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 1rem;
+    letter-spacing: -.03rem;
+}
+
+
+.footer-section a:hover {
+    color: #2acfcf;
+}
+
+
+.logo-footer{
+    max-width: 10%;
+    transform: translateY(0.5rem);
+  
+}
+
+
+.up-scroll{
+    cursor: pointer;
+}
+
+
+.footer-div{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.attribution {
+    text-align: center;
+    font-size: .8rem;
+    padding: .5rem;
+}
+
+.attribution {
+    color: #ee6123;
+}
+
+.like-logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5rem;
+   
+}
+
+
+.right{
+    transform: translateX(50%);
+}
+
+
+.attribution a:hover {
+    color: #2acfcf;
+}
+
+
+@media(max-width:1200px){
+
+    .logo-footer{
+        display: block;
+        min-width: 15%;
+        transform: translateY(0.8rem);
+      
+    }
+
+}
+
+
+@media (max-width:850px) {
+    .logo-footer{
+        max-width: 35%;
+      
+
+    }
+
+    .like-logo{
+      font-size: 5rem;
+    }
+
+    .logo-footer{
+       
+        min-width: 30%;
+        transform: translateY(0.6rem);
+      
+    }
+
+        .right{
+
+
+             transform: skew(-20deg, 20deg) translateY(4rem) translateX(-4rem);
+             z-index: 10 !important;
+        }
+   
+
+}
+
+
+@media( max-width:450px){
+
+    .like-logo{
+        font-size: 4rem;
+      }
+
+      .logo-footer{
+       
+        min-width: 50%;
+        transform: translateY(0.6rem);
+      
+    }
+
+}
