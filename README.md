@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-(./like_bitly.png)
 
+(./design/desktop-preview.jpg)
 
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
